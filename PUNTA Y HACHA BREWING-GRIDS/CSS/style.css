@@ -51,13 +51,21 @@ h2 {
 main {
   grid-area: main;
   display: grid;
-  grid-template-rows: auto;
 }
 
 .picturecontainer {
   display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 98.5vw;
+  justify-items: center;
+  justify-content: space-around;
+}
+.picturecontainer img {
+  width: 30vw;
+  border-radius: 3%;
 }
 /*                                             HEADER                                                        */
 header {
@@ -116,6 +124,7 @@ header {
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: space-around;
+  justify-items: center;
 }
 
 .-img {
