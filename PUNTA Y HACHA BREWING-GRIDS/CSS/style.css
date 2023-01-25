@@ -106,11 +106,24 @@ main {
 .luisi {
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-rows: auto;
   align-items: center;
   justify-content: space-around;
   justify-items: center;
 }
 
+.luisi img {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.luisi p {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
 .-img {
   width: 30vw;
   height: 30vw;
