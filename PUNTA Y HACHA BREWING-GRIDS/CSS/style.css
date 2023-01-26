@@ -47,13 +47,12 @@ main {
 
 .picturecontainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 10px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto;
   grid-row-gap: 10px;
-  width: 98.5vw;
-  justify-items: center;
   justify-content: space-around;
+  align-items: center;
+  justify-items: stretch;
 }
 .picturecontainer img {
   width: 30vw;
