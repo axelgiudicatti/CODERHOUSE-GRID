@@ -55,20 +55,21 @@ main {
   justify-items: stretch;
   align-items: stretch;
   align-content: center;
+  background-color: #bad9a2;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .picturecontainer img {
   width: 30vw;
   border-radius: 3%;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
-.home {
-  background: linear-gradient(#90a959 30%, white 80%);
-}
 .home h1 {
-  color: white;
+  color: black;
   text-transform: uppercase;
   text-shadow: #6494aa;
+  background-color: #adbf97;
 }
 
 .picturecontainer img:hover {
@@ -81,7 +82,7 @@ main {
 /*                                             HEADER                                                        */
 
 .--background {
-  background-color: #90a959;
+  background-color: #93a392;
   padding-left: 2%;
   padding-right: 2%;
 }
@@ -118,6 +119,7 @@ main {
 .-description {
   text-align: justify;
   width: 48vw;
+  text-shadow: black;
 }
 .axel,
 .lola,
@@ -126,10 +128,24 @@ main {
   grid-template-columns: auto auto;
   grid-template-rows: auto;
   align-items: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
   justify-content: space-around;
   justify-items: center;
 }
-
+.nosotros h1 {
+  background-color: #adbf97;
+  color: black;
+}
+.axel {
+  background-color: #9dc4b5;
+}
+.luisi {
+  background-color: #bad9a2;
+}
+.lola {
+  background-color: #e2eb98;
+}
 .luisi img {
   grid-column-start: 2;
   grid-column-end: 2;
@@ -143,18 +159,19 @@ main {
   grid-row-end: 1;
 }
 .-img {
-  width: 30vw;
+  width: 28vw;
   height: 30vw;
   border-radius: 6vw;
-  box-shadow: 25px 25px 55px #8a9b68;
+  /*box-shadow: 25px 25px 55px #8a9b68;*/
 }
 .-img:hover {
-  transform: scale(1.15);
+  transform: scale(1.07);
   transition-delay: 100ms;
   transition-duration: 800ms;
 }
 
 /*                                                CONTACT                                               */
+
 fieldset {
   border: none;
   line-height: 2.2rem;
